@@ -16,6 +16,8 @@ layout: default
 * Relevant Coursework: Digital Media Coding, Advanced Network Security, Advanced Operating Systems
 
 ## Skills
+
+|---
 | Programming                                | Software                                  | Environments                      |
 | C#, .NET, ASP.NET Core, Blazor, SpecFlow;  | Git, GitHub Actions, Jira;                | Linux, Windows;                   |
 | Java, JUnit;                               | IntelliJ IDEA, Eclipse;                   | Docker, Proxmox VE, VMWare ESXi;  |
