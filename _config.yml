@@ -1,4 +1,4 @@
-title: Resume
+title: Noah Curoe
 url: "nc3040.github.io"
 baseurl: "/"
 
@@ -16,9 +16,3 @@ sass:
     sass_dir: _sass
 
 nav:
- - name: "About"
-   link: "/researcher/"
- - name: "Resume"
-   link: "resume.pdf"
- - name: "Contact"
-   link: "contact"
