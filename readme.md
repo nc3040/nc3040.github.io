@@ -67,10 +67,10 @@ That's it! We now have a copy of the resume template that we can edit.
 1. In the bottom section of VS Code, click the Terminal tab
 2. Type the following commands, making sure to replace the email and name in the commands:
 
-```
-git config --global user.email "example@email.com"
-git config --global user.name "Your Name"
-```
+    ```
+    git config --global user.email "example@email.com"
+    git config --global user.name "Your Name"
+    ```
 
 3. In the far left column in VS Code, click the tab named `Source Control`
 4. Enter a message for the commit, such as `Add my resume`
