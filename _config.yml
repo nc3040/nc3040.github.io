@@ -18,5 +18,5 @@ sass:
 nav:
  - name: "Resume"
    link: "/"
- - name: "How to"
+ - name: "Readme"
    link: "/readme"
