@@ -16,6 +16,7 @@ Follow this readme if you want to host your resume publicly on a staticly genera
 
 You'll need a couple things before you can follow this guide:
 - A resume using Markdown
+    - See [more resources](#more-resources) if you need a guide to learn Markdown.
 - A GitHub Account
     - If you don't already have one, head over to [github.com](https://github.com) to create a new account.
     - When prompted, choose to stick with the free plan for Github as we won't be needing any premium features.
