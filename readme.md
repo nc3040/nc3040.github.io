@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Host Your Resume
 
 Follow this readme if you want to host your resume publicly on a staticly generated website for free using GitHub Pages!
