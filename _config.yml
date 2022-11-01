@@ -16,3 +16,7 @@ sass:
     sass_dir: _sass
 
 nav:
+ - name: "Resume"
+   link: "/"
+ - name: "How to"
+   link: "/readme"
