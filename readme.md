@@ -30,28 +30,32 @@ You'll need a couple things before you can follow this guide:
 
 ### Setting Up The GitHub Repository
 
+Andrew Etter encourages people to build websites to host their writing, and that advice certainly applies to your resume. With a website, all you need to do to share your resume is tell someone the URL. Better yet, anyone who visits that URL will always have the latest version of your resume no matter when you initially gave it to them, as the content isn't frozen in time like sending a PDF file would do.
+
 1. Navigate to [GitHub](https://github.com/) and login to your account.
 2. Navigate to [this repository](https://github.com/nc3040/nc3040.github.io)
     - This repository contains a resume template that we'll use for formatting our own.
-3. Click the `Fork` button in the top right of the page.
+3. Click the **Fork** button in the top right of the page.
 4. Fill out the information for this forked repository as follows:
-    - For `Repository name`, enter your GitHub username followed by `.github.io`. For example, `nc3040.github.io`.
+    - For **Repository name**, enter your GitHub username followed by `.github.io`. For example, `nc3040.github.io`.
     - Leave the other options at their defaults.
-    - Choose `Create fork`.
-5. Click the `Settings` tab at the top of the page, then select `Pages` in the left sidebar.
-6. For `Source` choose `Deploy from a branch`, then for `Branch` choose `gh-pages`.
-7. Press `Save`.
+    - Choose **Create fork**.
+5. Click the **Settings** tab at the top of the page, then select **Pages** in the left sidebar.
+6. For **Source** choose **Deploy from a branch**, then for **Branch** choose **gh-pages**.
+7. Press **Save**.
 
 That's it! We now have a copy of the resume template that we can edit.
 
 ### Editing Our Resume in Visual Studio Code
 
-1. Open Visual Studio Code.
-2. On the start screen, choose `Clone Git Repository...`, then `Clone from GitHub`.
+Etter demonstrates in their book why using a lightweight markup language is a great idea: it allows us to write out content quickly without worrying about long and complicated syntax, while letting us convert that content to other prettier formats later. By using Markdown, we can edit our resume in a text editor like VS Code, and even preview the resulting formatting from right within the editor.
+
+1. Open Visual Studio Code (VS Code).
+2. On the start screen, choose **Clone Git Repository...**, then **Clone from GitHub**.
 3. Choose to allow signing into GitHub and follow the login process in your browser.
 4. After logging in, choose the repository we just forked from the list.
 5. Choose an empty folder somewhere on your PC to download the repository to.
-6. Choose to `Open` the cloned repository when prompted.
+6. Choose to **Open** the cloned repository when prompted.
 7. In the file explorer menu, open the `_config.yml` file.
 8. Add your name to the `title` property on line 1.
 9. Replace the `url` value on line 2 with the URL you entered as the repository name, ex. `nc3040.github.io`.
@@ -59,9 +63,11 @@ That's it! We now have a copy of the resume template that we can edit.
 11. In the file explorer, open `index.md`.
 12. Enter all of your resume content written in Markdown. 
     - Make sure to keep the metadata on the first 4 lines of this file untouched.
-13. Preview your formatting by right clicking the tab for this `index.md` file and choosing `Open Preview`.
+13. Preview your formatting by right clicking the tab for this `index.md` file and choosing **Open Preview**.
 
 ### Uploading our Resume to GitHub
+
+Etter describes the wonders of using distributed version control systems (DVCS) to manage our content. Another reason I chose to use VS Code for this guide is that it simplifies the process of using git as our DVCS, allowing us to publish updates to our resume as frequently as we wish. With VS Code it really becomes just a few clicks to push your resume content to GitHub. As a bonus, we get a built-in history of all the changes to our resume over time that we can easily browse through on GitHub.
 
 1. In the bottom panel of VS Code, click the Terminal tab.
 2. Type the following commands, making sure to replace the email and name in the commands with your own:
@@ -71,11 +77,11 @@ That's it! We now have a copy of the resume template that we can edit.
     git config --global user.name "Your Name"
     ```
 
-3. In the far left column in VS Code, click the tab named `Source Control`.
+3. In the far left column in VS Code, click the tab named **Source Control**.
 4. Enter a message for the commit, such as `Add my resume`.
-5. Press `Commit` and confirm to stage all files when prompted.
+5. Press **Commit** and confirm to stage all files when prompted.
 6. Sign in to GitHub using your browser when prompted.
-7. Press the `Sync` button.
+7. Press the **Sync** button.
 
 ### Done!
 
