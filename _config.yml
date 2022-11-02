@@ -15,8 +15,4 @@ sass:
     style: compressed
     sass_dir: _sass
 
-nav:
- - name: "Resume"
-   link: "/"
- - name: "Readme"
-   link: "/readme"
+nav: #
