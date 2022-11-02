@@ -26,7 +26,7 @@ You'll need a couple things before you can follow this guide:
 
 ### I. Setting Up The GitHub Repository
 
-Andrew Etter encourages people to build websites to host their writing, and that advice certainly applies to your resume. With a website, all you need to do to share your resume is tell someone the URL. Better yet, anyone who visits that URL will always have the latest version of your resume no matter when you initially gave it to them, as the content isn't frozen in time like sending a PDF file would do. We'll use GitHub to host your website for free in a format that allows others to learn how they can do it too.
+Andrew Etter encourages people to build websites to host their writing, and that advice certainly applies to your resume. With a website, all you need to do to share your resume is tell someone the URL. Better yet, anyone who visits that URL will always have the latest version of your resume no matter when you initially gave it to them, as the content isn't frozen in time like sending a PDF file would do. In this guide we'll use GitHub to host your website for free in a format that allows others to learn how they can do it too.
 
 1. Navigate to [GitHub](https://github.com/) and login to your account.
 2. Navigate to [this repository](https://github.com/nc3040/nc3040.github.io)
@@ -40,16 +40,16 @@ Andrew Etter encourages people to build websites to host their writing, and that
 6. For **Source** choose **Deploy from a branch**, then for **Branch** choose **gh-pages**.
 7. Press **Save**.
 
-That's it! We now have a copy of the resume template that we can edit.
+You now have a copy of the resume template on your own GitHub account that you can edit.
 
 ### II. Editing Our Resume in Visual Studio Code
 
-Etter demonstrates in their book why using a lightweight markup language is a great idea: it allows us to write out content quickly without worrying about long and complicated syntax, while letting us convert that content to other prettier formats later. By using Markdown, you can edit your resume in a text editor like VS Code, and even preview the resulting formatting from right within the editor.
+Etter demonstrates in their book why using a lightweight markup language is a great idea: it allows us to write out content quickly without worrying about long and complicated syntax, while also letting us convert that content to other prettier formats later. By using Markdown, you can edit your resume in a text editor like VS Code, and even preview the resulting formatting from right within the editor before you publish.
 
 1. Open Visual Studio Code (VS Code).
 2. On the start screen, choose **Clone Git Repository...**, then **Clone from GitHub**.
 3. Choose to allow signing into GitHub and follow the login process in your browser.
-4. After logging in, choose the repository we just forked from the list.
+4. After logging in, choose the repository you just forked from the list.
 5. Choose an empty folder somewhere on your PC to download the repository to.
 6. Choose to **Open** the cloned repository when prompted.
 7. In the file explorer menu, open the `_config.yml` file.
@@ -61,9 +61,11 @@ Etter demonstrates in their book why using a lightweight markup language is a gr
     - Make sure to keep the metadata on the first 4 lines of this file untouched.
 13. Preview your formatting by right clicking the tab for this `index.md` file and choosing **Open Preview**.
 
+You've now made all of the changes that you need to make to the source files. Your resume is now ready to be deployed to GitHub.
+
 ### III. Uploading Your Resume to GitHub
 
-Etter describes the wonders of using distributed version control systems (DVCS) to manage your content. Another reason I chose to use VS Code for this guide is that it simplifies the process of using git as your DVCS, allowing you to publish updates to your resume as frequently as you wish. With VS Code it really becomes just a few clicks to push your resume content to GitHub. As a bonus, we get a built-in history of all the changes to your resume over time that we can easily browse through on GitHub.
+Etter describes the wonders of using distributed version control systems (DVCS) to manage your content. DVCS' like git allow us to easily track the changes to our content over time. It also makes it easy to share our source files with others. VS Code simplifies the process of using git to just a few clicks, making it easy to publish changes to your resume as frequently as you wish.
 
 1. In the bottom panel of VS Code, click the Terminal tab.
 2. Type the following commands, making sure to replace the email and name in the commands with your own:
@@ -79,9 +81,7 @@ Etter describes the wonders of using distributed version control systems (DVCS) 
 6. Sign in to GitHub using your browser when prompted.
 7. Press the **Sync** button.
 
-### Done!
-
-Your resume is now being deployed on GitHub Pages! This can take a few hours the first time. When it's complete, you can find it at `https://username.github.io` where `username` is your GitHub username.
+That's it! Your resume is now being deployed on GitHub Pages. This can take up to an hour the first time. When it's complete, you can find it at `https://[username].github.io` where `[username]` is your GitHub username.
 
 ## More Resources
 
@@ -97,7 +97,7 @@ Your resume is now being deployed on GitHub Pages! This can take a few hours the
 ## Frequently Asked Questions
 
 ### Why is Markdown better than a word processor?
-Markdown allows us to quickly write content with basic formatting syntax, then convert that basic syntax into any document format we want. In this guide we turn our Markdown into a static HTML website, but Markdown can also be converted into other formats like PDF. That means we can write out content quickly in one place and then easily have it formatted best for any medium that we want to share it by!
+Markdown allows us to quickly write content with basic formatting syntax, then convert that basic syntax into any document format we want. In this guide we turn Markdown into a static HTML website, but Markdown can also be converted into other formats like PDF. That means we can write out content quickly in one place and then easily have it formatted best for any medium that we want to share it by!
 
 ### How do I update my resume content after uploading it the first time?
 You can edit the `index.md` file with any new changes, then just follow steps 3-7 under [Uploading Your Resume to GitHub](#iii-uploading-your-resume-to-github) again to commit and push your new changes.
