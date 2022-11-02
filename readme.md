@@ -4,7 +4,7 @@ Follow this readme if you want to host your resume publicly on a staticly genera
 
 [Demo website](https://nc3040.github.io)
 
-![Resume after it's hosted](https://cdn.discordapp.com/attachments/484229849955827712/1037111899168444506/chrome_2022-11-01_16-09-13.gif)
+![chrome_2022-11-01_19-17-52](https://user-images.githubusercontent.com/117039653/199365668-4c08d876-6abf-4f2f-8ea0-01164313b33c.gif)
 
 ## Uploading Your Own Resume
 
